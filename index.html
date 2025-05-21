@@ -1,1 +1,65 @@
-<h1>En construcción</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log in - Big Gamer </title>
+    <style>
+    body {
+        background-color: #1e144b;
+        background-size: cover;
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .login-container {
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 0 15px #052d61;
+        color: rgb(21, 190, 35);
+        width: 300px;   background-color: rgba(56, 5, 85, 0.459);
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 45px;
+        color: #18a113;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 25px;
+        border: none;
+        border-radius: 5px;
+        }
+
+    </style>
+    <div class="login-container">
+    <h2>Iniciar Sesión</h2>
+    <form action="#" method="post">
+        <label for="username">Usuario: </label>
+        <input type="text" id="username" name="username" placeholder="Nombre de usuario" required> 
+
+        <label for="password">Contraseña: </label>
+        <input type="password" id="password" name="contraseña" placeholder="ingrese su contraseña" required> 
+        <button style="margin-top: 15px; 
+        width: 100%; 
+        padding: 10px;
+        background-color: #30096e; 
+        border: none; 
+        color: rgb(196, 54, 196); 
+        font-weight: bold; 
+        border-radius: 5px;">INGRESAR</button>
+    </div>
